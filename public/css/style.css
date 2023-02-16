@@ -1,0 +1,122 @@
+h1{
+    font-family: sans-serif;
+    color: rgb(252, 174, 7);
+    margin-left: 52px;
+}
+body{
+    background: linear-gradient(red, blue);
+}
+.main nav .extra .cool li {
+    list-style: none;
+}
+.main nav .extra .cool li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.main nav .extra .cool{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.main nav .extra{
+    display: flex;
+    margin-left: 920px;
+}
+.main nav{
+    display: flex;
+    background-color: darkorange;
+}
+.custom-container {
+    width: 50%;
+    height: 78vh;
+    margin: 10vh auto;
+    padding-left: 135px;
+    padding-top: 15px;
+    background-color: rgb(129, 31, 87);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px white;
+}
+.modal-dialog {
+    max-width: 70%;
+}
+
+.jumbotron .text-center{
+    margin-left: -73px;
+}
+.jumbotron h3{
+    margin-left: 179px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    color: #eef7f7;
+}
+form .form-group .form-control{
+    margin-left: 0px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    /* text-align: center; */
+    outline: none;
+    width: 523px;
+    background-color: rgb(197, 193, 193);
+    margin-top: 5px;
+}
+form .form-group #fname{
+    /* margin-left: 10px; */
+}
+form .form-group .text-danger{
+    color: rgb(223, 3, 3);
+}
+form .form-group label{
+    color: white;
+    font-family: system-ui;
+}
+.form-group .row .col-md-8 {
+     font-family: system-ui;
+     color: #eef7f7;
+    }
+    .form-group .row .col-md-8 a{
+        /* background-color: #ff0018; */
+        font-family: system-ui;
+        margin-left: 5px;
+    color: #fa8e02;
+ }
+form .form-group .row .col-md-8 a{
+    color: rgb(255, 166, 0);
+
+}
+form .form-group .row{
+    position: relative;
+    top: -38px;
+    left: 140px;
+    color: white;
+     font-family: system-ui;
+
+}
+form .form-group .btn{
+    background-color: #ff0018;
+    border: none;
+    width: 129px;
+    height: 37px;
+    border-radius: 4px;
+    font-size: 16px;
+        cursor: pointer;
+    color: white;
+    margin-top: 4px;
+    box-shadow: 0px 0px 2px rgb(245, 244, 244);
+}
+form .form-group{
+    margin-bottom: 9px;
+}
+form{
+    margin-top: -10px;
+}
+
+
+@media  screen and (max-width:1297px) {
+    form .form-group{
+        margin-left: -50px;
+        /* background-color: black; */
+    }
+
+    
+}
